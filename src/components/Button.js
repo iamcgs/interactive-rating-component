@@ -7,7 +7,7 @@ function Button({ ratingNumber, setSelectedRating }) {
         key={ratingNumber}
         value={ratingNumber}
         onClick={() => setSelectedRating(ratingNumber)}
-        className="bg-darkBlueCardBg text-mediumGreyRatingBg pb-1 h-10 w-10 rounded-full hover:bg-orangeBtn focus:bg-mediumGreyRatingBg focus:text-whiteClr transition-all duration-150 "
+        className="bg-darkBlueCardBg text-mediumGreyRatingBg pb-1 h-10 w-10 rounded-full hover:bg-orangeBtn focus:bg-mediumGreyRatingBg focus:text-whiteClr hover:text-whiteClr transition-all duration-150 "
       >
         {ratingNumber}
       </button>
