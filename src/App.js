@@ -27,7 +27,7 @@ function App() {
             Please let us know how we did it with your support request. All
             feedback is appreciated to help us improve our offering!
           </p>
-          <ul className="flex items-center justify-between w-full my-2">
+          <div className="flex items-center justify-between w-full my-2">
             {ratingArray.map((rating) => {
               return (
                 <Button
@@ -37,7 +37,7 @@ function App() {
                 />
               );
             })}
-          </ul>
+          </div>
           <button
             type="submit"
             onClick={handleSubmit}
